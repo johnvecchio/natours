@@ -4,14 +4,14 @@
 1 verbose cli   'run',
 1 verbose cli   'compile:sass' ]
 2 info using npm@3.10.10
-3 info using node@v6.10.1
+3 info using node@v6.11.3
 4 verbose run-script [ 'precompile:sass', 'compile:sass', 'postcompile:sass' ]
 5 info lifecycle natours@1.0.0~precompile:sass: natours@1.0.0
 6 silly lifecycle natours@1.0.0~precompile:sass: no script for precompile:sass, continuing
 7 info lifecycle natours@1.0.0~compile:sass: natours@1.0.0
 8 verbose lifecycle natours@1.0.0~compile:sass: unsafe-perm in lifecycle true
-9 verbose lifecycle natours@1.0.0~compile:sass: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/jonas.io/Desktop/1-Natours/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle natours@1.0.0~compile:sass: CWD: /Users/jonas.io/Desktop/1-Natours
+9 verbose lifecycle natours@1.0.0~compile:sass: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/johnvecchio/Desktop/WebDev/CSS-Course/Natours/starter/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/johnvecchio/.rvm/bin
+10 verbose lifecycle natours@1.0.0~compile:sass: CWD: /Users/johnvecchio/Desktop/WebDev/CSS-Course/Natours/starter
 11 silly lifecycle natours@1.0.0~compile:sass: Args: [ '-c', 'node-sass sass/main.scss css/style.css -w' ]
 12 silly lifecycle natours@1.0.0~compile:sass: Returned: code: 1  signal: null
 13 info lifecycle natours@1.0.0~compile:sass: Failed to exec compile:sass script
@@ -23,13 +23,13 @@
 14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
-14 verbose stack     at maybeClose (internal/child_process.js:886:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
 15 verbose pkgid natours@1.0.0
-16 verbose cwd /Users/jonas.io/Desktop/1-Natours/sass
+16 verbose cwd /Users/johnvecchio/Desktop/WebDev/CSS-Course/Natours/starter/sass
 17 error Darwin 16.7.0
 18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "compile:sass"
-19 error node v6.10.1
+19 error node v6.11.3
 20 error npm  v3.10.10
 21 error code ELIFECYCLE
 22 error natours@1.0.0 compile:sass: `node-sass sass/main.scss css/style.css -w`
